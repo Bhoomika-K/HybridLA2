@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/splashlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo1"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/splashtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Bumble"
+        android:textAlignment="center"
+        android:textColor="#65B3D6"
+        android:textSize="80dp"
+        android:textStyle="bold"
+        android:layout_marginTop="410dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="'Define you with Style'"
+        android:textColor="#65B3D6"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/splashtext"/>
+
+
+</RelativeLayout>
